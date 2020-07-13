@@ -1,0 +1,18 @@
+{% extends 'gdrive/main.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="row">
+        <div class="col-md-6">
+                <div class="card card-body">
+
+                <p> The file Extenstion should be in '.pdf', '.html', '.txt', '.doc', '.docx' BUt you have uploaded different</p>
+		<a class="btn btn-sm btn-info" href='{% url 'upload_file' %}'> Back</a>
+                </div>
+        </div>
+</div>
+
+
+{% endblock %}

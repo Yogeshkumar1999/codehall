@@ -1,0 +1,18 @@
+{% extends 'gdrive/main.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="row">
+        <div class="col-md-6">
+                <div class="card card-body">
+
+                <p> Your storage Limit has been exceded</p>
+		<a class="btn btn-sm btn-info" href='{% url 'user' %}'> Back</a>
+                </div>
+        </div>
+</div>
+
+
+{% endblock %}
